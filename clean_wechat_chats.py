@@ -3,6 +3,7 @@ import pickle
 import sqlite3
 import sys
 
+#Initialization of variables
 chat_db_file = sys.argv[1]
 friend_id = sys.argv[2]
 conn = sqlite3.connect(chat_db_file)
